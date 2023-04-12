@@ -7,7 +7,7 @@ city = astral.LocationInfo("Charlotte", "USA", "US/Eastern")
 
 # set start and end dates
 start_date = datetime.date.today()
-end_date = start_date + datetime.timedelta(days=30)
+end_date = start_date + datetime.timedelta(days=10)
 
 # loop through each day and calculate times
 for day in range((end_date - start_date).days + 1):
