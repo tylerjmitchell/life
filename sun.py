@@ -3,7 +3,7 @@ from astral.sun import sun
 from astral import LocationInfo
 
 # set location
-city = astral.LocationInfo("Charlotte", "USA", "US/Eastern")
+city = LocationInfo("Charlotte", "USA", "US/Eastern")
 
 # set start and end dates
 start_date = datetime.date.today()
